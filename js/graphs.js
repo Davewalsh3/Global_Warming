@@ -5,7 +5,7 @@ queue()
 function makeGraphs(error, annualData) {
     var ndx = crossfilter(annualData);
     var date_dim = ndx.dimension(dc.pluck("Year"));
-    var temperature_yearly = date_dim.group().dc.pluck("Mean");
+    var temperature_yearly = date_dim.group().reduceSum(dc.pluck("Mean"));
 
 
     dc.lineChart("#monthly_chart")
