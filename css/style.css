@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton|Open+Sans+Condensed:300|Oswald&display=swap');
+
+
+.container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar {
+    font-family: open+sans+condensed, sans-serif;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: rgba(63, 63, 58, 0);
+}
+
+.jumbobro-home-page {
+    margin-top: 280px;
+    margin-bottom: 160px;
+}
+
+.first_h2, .first_h1{
+    font-family: monoton, sans-serif;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.rest_h2 {
+    font-family: monoton, sans-serif;
+    padding-bottom: 10px;
+}
+
+.text-first-page {
+color: white;
+font-family: open+sans+condensed, sans-serif;
+}
+
+.bck-ground {
+    background-image:  linear-gradient(
+        rgba(78, 74, 74, 0.479), 
+        rgba(78, 74, 74, 0.479)
+      ), url("../fotos/1251823-global-warming-background.jpg");
+    width: auto;
+    height: auto;
+    background-attachment: scroll;
+}
+
+.first_page {
+    text-align: center;
+}
