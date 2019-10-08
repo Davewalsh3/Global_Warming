@@ -11,7 +11,7 @@ function makeGraphs(error, annualData) {
 
 
     dc.lineChart("#monthly_chart")
-        .width(1200)
+        .width(1000)
         .height(350)
         .margins({ top: 25, right: 50, bottom: 30, left: 50 })
         .dimension(date_dim)
@@ -19,7 +19,7 @@ function makeGraphs(error, annualData) {
         .transitionDuration(500)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
-        .xAxisLabel("Year")
-        .yAxis().ticks(4);
+        .xAxisLabel("Time")
+        .yAxis().ticks(13);
     dc.renderAll();
 }

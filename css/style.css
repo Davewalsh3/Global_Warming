@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton|Open+Sans+Condensed:300|Oswald&display=swap');
-
-
-.container{
+.container {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .navbar {
     font-family: open+sans+condensed, sans-serif;
 }
@@ -21,7 +20,8 @@
     margin-bottom: 160px;
 }
 
-.first_h2, .first_h1{
+.first_h2,
+.first_h1 {
     font-family: monoton, sans-serif;
     padding-bottom: 10px;
     color: white;
@@ -33,15 +33,12 @@
 }
 
 .text-first-page {
-color: white;
-font-family: open+sans+condensed, sans-serif;
+    color: white;
+    font-family: open+sans+condensed, sans-serif;
 }
 
 .bck-ground {
-    background-image:  linear-gradient(
-        rgba(78, 74, 74, 0.479), 
-        rgba(78, 74, 74, 0.479)
-      ), url("../fotos/1251823-global-warming-background.jpg");
+    background-image: linear-gradient( rgba(78, 74, 74, 0.479), rgba(78, 74, 74, 0.479)), url("../fotos/1251823-global-warming-background.jpg");
     width: auto;
     height: auto;
     background-attachment: scroll;
@@ -49,4 +46,9 @@ font-family: open+sans+condensed, sans-serif;
 
 .first_page {
     text-align: center;
+}
+
+#monthly_chart .x.axis text {
+    text-anchor: end !important;
+    transform: rotate(-75deg);
 }
