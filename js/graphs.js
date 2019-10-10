@@ -11,8 +11,8 @@ function makeGraphs(error, annualData) {
 
 
     dc.lineChart("#monthly_chart")
-        .width(1000)
-        .height(350)
+        .width(1200)
+        .height(550)
         .margins({ top: 25, right: 50, bottom: 30, left: 50 })
         .dimension(date_dim)
         .group(temperature_monthly)
@@ -20,6 +20,8 @@ function makeGraphs(error, annualData) {
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .xAxisLabel("Time")
-        .yAxis().ticks(13);
+        .yAxisLabel("Temperature")
+        .xAxis().tickValues(annualData.map(set => set.Year - (set.Year % 5)))
+
     dc.renderAll();
 }
