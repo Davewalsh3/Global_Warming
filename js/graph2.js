@@ -11,7 +11,7 @@ function moreGraphs(error, global_1751_2014Data) {
     var emissions_per_capita = date_dim.group().reduceSum(dc.pluck("capita"));
 
     dc.barChart("#emissions_chart")
-        .height(400)
+        .height(300)
         .margins({ top: 10, right: 50, bottom: 30, left: 50 })
         .ordinalColors(["black"])
         .dimension(date_dim)

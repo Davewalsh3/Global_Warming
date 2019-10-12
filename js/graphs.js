@@ -13,7 +13,7 @@ function makeGraphs(error, annualData) {
 
 
     dc.lineChart("#monthly_chart")
-        .height(400)
+        .height(300)
         .margins({ top: 25, right: 50, bottom: 30, left: 50 })
         .ordinalColors(["black"])
         .dimension(date_dim)
