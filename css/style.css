@@ -52,3 +52,8 @@
     text-anchor: end !important;
     transform: rotate(-75deg);
 }
+
+.first_h1:hover {
+    color: red;
+    font-size: 60px;
+}
