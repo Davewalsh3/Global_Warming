@@ -15,16 +15,13 @@ function makeGraphs(error, annualData) {
     dc.lineChart("#monthly_chart")
         .height(300)
         .margins({ top: 25, right: 50, bottom: 30, left: 50 })
-        .ordinalColors(["black"])
+        .ordinalColors(["red"])
         .dimension(date_dim)
         .group(temperature_monthly)
         .transitionDuration(500)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
-        .xAxisLabel("Time")
         .yAxisLabel("Temperature")
-        .elasticY(true)
-        .elasticX(true)
         .label(function(d) {
             return d.value
         })

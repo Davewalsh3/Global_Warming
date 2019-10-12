@@ -1,4 +1,4 @@
-"year","Total carbon emissions from fossil fuel consumption and cement production (million metric tons of C)","Carbon emissions from gas fuel consumption","Carbon emissions from liquid fuel consumption","Carbon emissions from solid fuel consumption","Carbon emissions from cement production","Carbon emissions from gas flaring","capita"
+"year","total_carbon_emissions_fossilfuel","Carbon emissions from gas fuel consumption","Carbon emissions from liquid fuel consumption","Carbon emissions from solid fuel consumption","Carbon emissions from cement production","Carbon emissions from gas flaring","capita"
 1950,1630,97,423,1070,18,23,0.65  
 1951,1767,115,479,1129,20,24,0.69  
 1952,1795,124,504,1119,22,26,0.69  
