@@ -11,9 +11,9 @@ function moreGraphs(error, global_1751_2014Data) {
     var emissions_per_capita = date_dim.group().reduceSum(dc.pluck("capita"));
 
     dc.barChart("#emissions_chart")
-        .width(1200)
-        .height(550)
+        .height(400)
         .margins({ top: 10, right: 50, bottom: 30, left: 50 })
+        .ordinalColors(["black"])
         .dimension(date_dim)
         .group(emissions_per_capita)
         .transitionDuration(500)
@@ -21,6 +21,9 @@ function moreGraphs(error, global_1751_2014Data) {
         .xUnits(dc.units.ordinal)
         .xAxisLabel("Time")
         .yAxisLabel("Co2 emissions per capita")
+        .label(function(d) {
+            return d.value
+        })
         .xAxis().tickValues(global_1751_2014Data.map(set => set.year - (set.year % 5)))
 
     dc.renderAll();
