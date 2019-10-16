@@ -27,7 +27,7 @@ function moreGraphs(error, global_1751_2014Data) {
 
     dc.rowChart("#total_emission_per_fossilfuel")
         .height(850)
-        .ordinalColors(["darkblue"])
+        .ordinalColors(["darkblue", "red"])
         .dimension(time_dim)
         .group(total_carbon_fossilfuel)
     dc.renderAll();

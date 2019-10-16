@@ -15,10 +15,11 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script type="text/javascript" src="./js/graphs.js"></script>
-    <script type="text/javascript" src="./js/graph2.js"></script>
+    <script type="text/javascript" src="./js/graph2_3.js"></script>
+    <script type="text/javascript" src="./js/graph4.js"></script>
     <script type="text/javascript" src="./js/otherJS.js"></script>
 
 
@@ -34,26 +35,27 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Global Warming</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#home_page">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#first_page">Temp. Changes over time</a>
+                        <a class="nav-link" href="#first_page">Temperature Fluctuations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#second_page">Global emissions per capita</a>
+                        <a class="nav-link" href="#second_page">Emissions per Capita</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#third_page" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            More
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                  </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#third_page">Emissions from Fossil Fuel</a>
                             <a class="dropdown-item" href="#">Another action</a>
                             <a class="dropdown-item" href="#">Something else here</a>
                         </div>
@@ -185,11 +187,42 @@
 
             <div class="row">
                 <div class="col-sm-12">
-                    <h2 class="rest_h2">Global Warming by country</h2>
+                    <h2 class="rest_h2">Carbon Emissions from Fossil Fuel</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 col-md-6 col-sm-4" id="total_emission_per_fossilfuel">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="text_after_graph"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quam enim doloribus, odio sint veniam velit, in sunt vero, delectus aliquid ducimus voluptas id rerum? Repellendus error libero quo eligendi aut cumque illum soluta earum
+                        dolor tempore! Harum laboriosam ex numquam neque! Inventore perspiciatis eligendi perferendis, debitis praesentium veritatis iusto eius totam minus maxime accusamus porro suscipit enim esse illum labore rem vero. Consequuntur deserunt,
+                        hic sunt optio voluptatibus totam. Cum ratione distinctio iusto optio minima provident? Dicta ad quo deserunt temporibus similique veritatis, sint quis minus mollitia incidunt eius, debitis officia voluptas! Reprehenderit aut,
+                        dolores id commodi et, sapiente quas ipsam excepturi blanditiis consequatur quasi aliquid voluptas quod? Eius velit dicta fugit molestias illum quos quisquam voluptatum facere corporis fugiat optio minima sunt assumenda eveniet
+                        accusantium doloribus recusandae, laudantium voluptas earum unde saepe esse! Facere neque dicta dolor deleniti repudiandae nesciunt quidem odio, nisi sapiente magni error doloremque. Porro distinctio doloremque odit asperiores
+                        adipisci, ipsa excepturi eligendi molestiae quidem aliquam, sequi reprehenderit nulla ab dolorum. Rerum quaerat ullam provident distinctio porro eius ut cumque dolore, voluptatibus impedit, perspiciatis vel beatae tenetur voluptatum!
+                        Doloribus quos aperiam voluptatibus corrupti velit eum soluta, molestias modi cupiditate recusandae tempora veritatis quaerat debitis odio ipsa aut quidem cumque? Assumenda nemo deserunt magnam? Cum dolorum sint, repellat corporis
+                        cupiditate fugit ullam recusandae doloribus impedit explicabo? Quaerat vero ut dolores quam unde et temporibus cumque dolor minus, quasi ipsam dignissimos tenetur adipisci nulla dolorum, omnis expedita nihil facilis fugit corrupti
+                        repudiandae eligendi. Eum pariatur mollitia molestias? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam natus perferendis ipsum exercitationem nostrum, voluptatem sequi reiciendis provident unde. Iusto vero perferendis
+                        sequi quod enim minima delectus reprehenderit assumenda quas atque eius aliquid, esse ullam dolores cumque harum dolorum amet accusamus quidem vitae facilis veritatis perspiciatis! Consequatur placeat culpa veritatis.</p>
+                </div>
+
+            </div>
+    </section>
+
+    <section id="forth_page">
+
+        <div class="container page">
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="rest_h2">Cumulative CO₂ emissions</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-6 col-sm-4" id="cumulative_carbon_emissions">
 
                 </div>
             </div>
@@ -216,6 +249,10 @@
 
     </footer>
 
+
+    <!-- JavaScript for Navbar -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 

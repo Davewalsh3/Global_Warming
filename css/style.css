@@ -46,7 +46,7 @@ html {
     background-image: linear-gradient( rgba(78, 74, 74, 0.479), rgba(78, 74, 74, 0.479)), url("../fotos/1251823-global-warming-background.jpg");
     width: auto;
     height: auto;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
 .page {
@@ -59,8 +59,8 @@ html {
 }
 
 .first_h1:hover {
-    color: red;
-    font-size: 60px;
+    color: rgb(136, 99, 99);
+    font-size: 50px;
 }
 
 .text_after_graph {

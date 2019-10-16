@@ -22,9 +22,6 @@ function makeGraphs(error, annualData) {
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .yAxisLabel("Temperature")
-        .label(function(d) {
-            return d.value
-        })
         .xAxis().tickValues(annualData.map(set => set.Year - (set.Year % 5)))
 
     dc.renderAll();
