@@ -9,10 +9,11 @@ function doGraphs(error, cumulative_co_emissionsData) {
     var cumulative_emissions = date_dim.group().reduceSum(dc.pluck("cumulative"));
 
     dc.pieChart("#cumulative_carbon_emissions")
-        .height(700)
-        .radius(700)
+        .height(500)
+        .innerRadius(100)
         .dimension(date_dim)
         .group(cumulative_emissions)
         .transitionDuration(500)
+        .legend(dc.legend());
     dc.renderAll();
 }

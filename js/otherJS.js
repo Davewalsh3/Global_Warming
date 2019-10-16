@@ -1,3 +1,5 @@
+// Start of Back to top Button //
+
 var scrolltotop = {
     setting: {
         startline: 100,
@@ -66,3 +68,25 @@ var scrolltotop = {
     }
 };
 scrolltotop.init();
+
+// End of Back to top Button //
+
+// Start of Read more Buttons //
+function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+    }
+};
+
+
+// End of Read more Buttons //

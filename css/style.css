@@ -4,6 +4,10 @@ html {
     scroll-behavior: smooth;
 }
 
+b {
+    font-size: 1.5em;
+}
+
 .container {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -20,9 +24,9 @@ html {
     background-color: rgba(63, 63, 58, 0);
 }
 
-.jumbobro-home-page {
-    margin-top: 280px;
-    margin-bottom: 160px;
+.jumbotron-home-page {
+    margin-top: 160px;
+    margin-bottom: 130px;
 }
 
 .first_h2,
@@ -58,19 +62,21 @@ html {
     transform: rotate(-75deg);
 }
 
-.first_h1:hover {
-    color: rgb(136, 99, 99);
-    font-size: 50px;
-}
-
 .text_after_graph {
     margin-top: 50px;
     padding-bottom: 50px;
     font-family: Roboto+Condensed, sans-serif;
 }
 
+.links_to_other_source {
+    color: rgb(25, 22, 194);
+    text-decoration: none;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
 
-/* back to the top button */
+
+/* back to the top button START */
 
 #button {
     display: inline-block;
@@ -111,3 +117,17 @@ html {
     opacity: 1;
     visibility: visible;
 }
+
+
+/* back to the top button END*/
+
+
+/* Start of Read more buttons */
+
+#more {
+    display: none;
+    background: none;
+}
+
+
+/* END of Read more buttons */
