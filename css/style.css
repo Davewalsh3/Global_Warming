@@ -4,6 +4,14 @@ html {
     scroll-behavior: smooth;
 }
 
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration-line: none;
+}
+
 b {
     font-size: 1.5em;
 }
@@ -66,13 +74,6 @@ b {
     margin-top: 50px;
     padding-bottom: 50px;
     font-family: Roboto+Condensed, sans-serif;
-}
-
-.links_to_other_source {
-    color: rgb(25, 22, 194);
-    text-decoration: none;
-    font-size: 1.3em;
-    text-transform: uppercase;
 }
 
 

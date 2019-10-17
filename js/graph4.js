@@ -16,4 +16,5 @@ function doGraphs(error, cumulative_co_emissionsData) {
         .transitionDuration(500)
         .legend(dc.legend());
     dc.renderAll();
+
 }
