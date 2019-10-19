@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Monoton|Open+Sans+Condensed:300|Oswald&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Notable|Roboto+Condensed:300i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap');
 html {
     scroll-behavior: smooth;
 }
@@ -14,6 +13,7 @@ html {
 
 a {
     color: black;
+    font-family: Roboto, sans-serif;
 }
 
 a:link {
@@ -24,6 +24,10 @@ b {
     font-size: 1.5em;
 }
 
+p {
+    font-family: Roboto, sans-serif;
+}
+
 .container {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -32,7 +36,7 @@ b {
 }
 
 .navbar {
-    font-family: Roboto+Condensed, sans-serif;
+    font-family: Oswald, sans-serif;
 }
 
 .jumbotron {
@@ -47,20 +51,19 @@ b {
 
 .first_h2,
 .first_h1 {
-    font-family: Notable, sans-serif;
+    font-family: Oswald, sans-serif;
     padding-bottom: 10px;
     color: white;
 }
 
 .rest_h2 {
-    font-family: Notable, sans-serif;
+    font-family: Oswald, sans-serif;
     padding-top: 30px;
     padding-bottom: 10px;
 }
 
 .text-first-page {
     color: white;
-    font-family: open+sans+condensed, sans-serif;
 }
 
 .bck-ground {
@@ -82,7 +85,6 @@ b {
 .text_after_graph {
     margin-top: 50px;
     padding-bottom: 50px;
-    font-family: Roboto+Condensed, sans-serif;
 }
 
 
@@ -95,3 +97,12 @@ b {
 
 
 /* END of Read more buttons */
+
+.footer {
+    background-color: #525252;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: white;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}

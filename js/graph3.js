@@ -11,7 +11,6 @@ function moreGraphs(error, global_1990_2014Data) {
         .height(500)
         .ordinalColors(["darkblue", "red"])
         .dimension(time_dim)
-        .group(total_carbon_fossilfuel)
-        .xAxisLabel("Cumulative Carbon Emissions since 1990")
+        .group(total_carbon_fossilfuel);
     dc.renderAll();
 };
