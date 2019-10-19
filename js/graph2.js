@@ -1,7 +1,7 @@
-queue().defer(d3.csv, "data/global_1751_2014.csv").await(moreGraphs);
+queue().defer(d3.csv, "data/global_1950_2014.csv").await(moreGraphs);
 
-function moreGraphs(error, global_1751_2014Data) {
-    var ndx = crossfilter(global_1751_2014Data);
+function moreGraphs(error, global_1950_2014Data) {
+    var ndx = crossfilter(global_1950_2014Data);
 
     //console.log(global_1751_2014Data) 
 
@@ -21,6 +21,6 @@ function moreGraphs(error, global_1751_2014Data) {
         .xUnits(dc.units.ordinal)
         .yAxisLabel("Co2 emissions per capita")
         .xAxisLabel("Time")
-        .xAxis().tickValues(global_1751_2014Data.map(set => set.year - (set.year % 5)));
+        .xAxis().tickValues(global_1950_2014Data.map(set => set.year - (set.year % 5)));
     dc.renderAll();
 };

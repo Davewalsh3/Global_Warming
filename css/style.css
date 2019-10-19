@@ -4,6 +4,14 @@ html {
     scroll-behavior: smooth;
 }
 
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
 a {
     color: black;
 }
@@ -46,6 +54,7 @@ b {
 
 .rest_h2 {
     font-family: Notable, sans-serif;
+    padding-top: 30px;
     padding-bottom: 10px;
 }
 
