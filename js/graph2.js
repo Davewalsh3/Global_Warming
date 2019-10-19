@@ -20,15 +20,7 @@ function moreGraphs(error, global_1751_2014Data) {
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .yAxisLabel("Co2 emissions per capita")
+        .xAxisLabel("Time")
         .xAxis().tickValues(global_1751_2014Data.map(set => set.year - (set.year % 5)));
-
-    var time_dim = ndx.dimension(dc.pluck("year"));
-    var total_carbon_fossilfuel = date_dim.group().reduceSum(dc.pluck("total_carbon_emissions_fossilfuel"));
-
-    dc.rowChart("#total_emission_per_fossilfuel")
-        .height(850)
-        .ordinalColors(["darkblue", "red"])
-        .dimension(time_dim)
-        .group(total_carbon_fossilfuel)
     dc.renderAll();
 };

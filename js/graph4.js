@@ -1,4 +1,6 @@
-queue().defer(d3.csv, "data/cumulative_co_emissions.csv").await(doGraphs);
+queue()
+    .defer(d3.csv, "data/cumulative_co_emissions.csv")
+    .await(doGraphs);
 
 function doGraphs(error, cumulative_co_emissionsData) {
     var ndx = crossfilter(cumulative_co_emissionsData);
@@ -10,11 +12,10 @@ function doGraphs(error, cumulative_co_emissionsData) {
 
     dc.pieChart("#cumulative_carbon_emissions")
         .height(500)
-        .innerRadius(100)
+        .innerRadius(130)
         .dimension(date_dim)
         .group(cumulative_emissions)
         .transitionDuration(500)
         .legend(dc.legend());
     dc.renderAll();
-
 }
