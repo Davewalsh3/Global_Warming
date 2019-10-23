@@ -71,7 +71,7 @@ h3 {
     background-image: linear-gradient( rgba(78, 74, 74, 0.479), rgba(78, 74, 74, 0.479)), url("../fotos/1251823-global-warming-background.jpg");
     width: auto;
     height: auto;
-    background-attachment: fixed;
+    background-position: bottom;
 }
 
 .page {
@@ -86,10 +86,6 @@ h3 {
 .text_after_graph {
     margin-top: 50px;
     padding-bottom: 50px;
-}
-
-.text_pics {
-    padding-top: 30px;
 }
 
 
@@ -117,4 +113,20 @@ h3 {
 
 .form_text {
     font-family: roboto, sans-serif;
+}
+
+
+/* Media query */
+
+@media (min-width: 600px) {
+    .text_pics {
+        padding-top: 30px;
+    }
+    .bck-ground {
+        background-image: linear-gradient( rgba(78, 74, 74, 0.479), rgba(78, 74, 74, 0.479)), url("../fotos/1251823-global-warming-background.jpg");
+        width: auto;
+        height: auto;
+        background-attachment: fixed;
+        background-position: unset;
+    }
 }
