@@ -7,3 +7,18 @@ This website is a part of my second assignment for the code institute about inte
 The last part of the website we talk about the cumulative CO₂ emissions of the 9 worst countries since 1900.
 
 ![Image of Yaktocat](https://i.ibb.co/wwFL4VM/techly-end-of-the-world-take-action-799x423.jpg)
+
+## My goals
+
+* Create a simple website that is easy to comprehend and also entertaining at the same time.
+* Create graphs that are easy to understand and also filled with useful information.
+* Applying the usage of Javascript and specially d3.js and also the different libareries such as: 
+    - DC Charts
+    - Crossfilter
+    - Jquery
+
+## Goals of the readers
+
+* To know more about the story behind the causes of Global Warming and How long back in time it goes.
+* To know see the effects of greenhouse gases on our planet. 
+* To give a glimpse of how much carbon emissions are produced by us (Human beings).
