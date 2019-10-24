@@ -6,7 +6,7 @@ This website is a part of my second assignment for the code institute about inte
 
 The last part of the website we talk about the cumulative CO₂ emissions of the 9 worst countries since 1900.
 
-<img src="https://i.ibb.co/wwFL4VM/techly-end-of-the-world-take-action-799x423.jpg" alt="Global Warming" style="float= center;" width="400">
+<img src="https://i.ibb.co/wwFL4VM/techly-end-of-the-world-take-action-799x423.jpg" alt="Global Warming" style="float= left;" width="1000">
 
 ## My goals
 
