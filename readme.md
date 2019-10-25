@@ -23,3 +23,13 @@ The last part of the website we talk about the cumulative CO₂ emissions of the
 * To see the effects of greenhouse gases on our planet. 
 * To give a glimpse of how much carbon emissions are produced by us (Human beings).
 * To know about the worst countries that contributing to global warming. 
+
+## Targeted groups that would be interested in this website
+
+* Climate change activists 
+* People who are insterested in learning more about global warming
+* People that want to have more understanding about how to fight climate change 
+
+## Wireframes
+
+[Press here](https://balsamiq.cloud/s5v1jfk/pveqqpq) to view the used wireframes that were made with **Baslamiq**
