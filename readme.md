@@ -108,3 +108,7 @@ I used the bootstrap grid feature to make the website responsive on all devices 
 I used the following [Page](https://whatsyourimpact.org/) to get my `paragraphs` and some facts about global warming. 
 
 The data sets were taken from [Kaggle.com](https://www.kaggle.com/) and dived into different data sets to use it for different graphs. 
+
+## Code Editor
+
+This project was intially built with [Amazon Cloud 9](https://aws.amazon.com/cloud9/) but after experiencing some problems with the IDE I researched more about different code editors and finally settled with the [VS Code](https://code.visualstudio.com/) because of it's reliability and simplicity. 
