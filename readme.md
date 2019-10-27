@@ -48,3 +48,63 @@ So i used the following style:
 * Black and colored graphs to make them more readable
 * Fontawesome github icons to connect the `Repo`with the website
 * Used Bootstrap 4 to create the `NavBar`
+* The bootstrap grid system to make the website responsive on all devices
+
+## User Experience
+
+As a User I would prefer to see a website that: 
+
+* Is easily to understand
+* Is good to navigate through
+* Offers good information that enrichs my general knowledge
+* Show the source of the information and also links to more information about the matter
+* Has a Navigation bar that is available at all times
+
+## Testing 
+
+For the testing i asked some of my family members and also colleagues at work, They tested the following things:
+
+* The navigation bar and the linking to all 4 pages
+* The source links to the paragraphs 
+* The graphs rendering
+* Grpahs modifications
+* The return to the top `Button`
+* The linking to github repository
+* The website was tested across multiple internet browsers such as: 
+    - Chrome
+    - Internet Explorar
+    - Safari
+    - Mozzila Firefox
+
+I also tested myself to go with the left aligned text but figured out that the centered text will look a way better and also used `Class= "container"` just to make the graphs and the text of the graphs centered. 
+
+The code was tested with a html code tester to make sure that everything is ordinary.
+
+The website was also tested on mutlipe phones with no problems: 
+
+    - Huawei Mate 20 pro
+    - Samsung galaxy s9
+    - Iphone 8
+    - Iphone x
+
+## Features
+
+I used the bootstrap grid feature to make the website responsive on all devices and also used a sticky `Navbar` to make it visible for the readers at all times to navigate smoothly through the page. 
+
+## Technologies
+
+1. HTML 5
+2. CSS
+3. Bootsrap 4
+4. d3.js
+5. DC.js charts
+6. Crossfilter
+7. Fontawesome
+8. jQuery
+
+
+## Credits
+
+I used the following [Page](https://whatsyourimpact.org/) to get my `paragraphs` and some facts about global warming. 
+
+The data sets were taken from [Kaggle.com](https://www.kaggle.com/) and dived into different data sets to use it for different graphs. 
