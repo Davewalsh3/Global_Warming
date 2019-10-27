@@ -43,7 +43,7 @@ So i used the following style:
 * White backgrounds to make the website easy to digest
 * 2 different fonts taken from google fonts
     - Oswald for the `Navbar`and `h1 & h2`
-    - Roboto for the `Paragraphs``
+    - Roboto for the `Paragraphs`
 * Pictures for the first and second page to make it more entertaining
 * Black and colored graphs to make them more readable
 * Fontawesome github icons to connect the `Repo`with the website
