@@ -15,7 +15,7 @@ The last part of the website we talk about the cumulative CO₂ emissions of the
 * Applying the usage of Javascript and specially d3.js as well as the different libareries such as: 
     - DC Charts
     - Crossfilter
-    - Jquery
+    - jQuery
 
 ## Goals of the readers
 
