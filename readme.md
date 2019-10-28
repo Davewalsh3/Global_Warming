@@ -89,9 +89,9 @@ The website was also tested on mutlipe phones with no problems:
 
 ## Deployment
 
-This project was develped intially using AWS cloud 9 IDE but after having some issues with the IDE I decided to go with VS Code. 
+This project was develped using Visual Studio Code (VSC). 
 
-To deply the project I used github pages in order to do so:
+To deploy the project I used github pages in order to do so:
 
 Please [click here](https://ramifareed1989.github.io/Global_Warming) to get to the website. 
 
