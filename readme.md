@@ -95,6 +95,13 @@ To deploy the project I used github pages in order to do so:
 
 Please [click here](https://ramifareed1989.github.io/Global_Warming) to get to the website. 
 
+In case you want to clone this porject, please do the following:
+
+1. Login into [Github](https://github.com/)
+2. Click on my [repository](https://github.com/RamiFareed1989/Global_Warming)
+3. Go to the button **"Download"** and click it
+4. Click on either "Open in Desktop" or "Download ZIP"
+
 ## Features
 
 I used the bootstrap grid feature to make the website responsive on all devices and also used a sticky `Navbar` to make it visible for the readers at all times to navigate smoothly through the page. 
