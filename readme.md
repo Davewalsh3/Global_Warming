@@ -87,6 +87,14 @@ The website was also tested on mutlipe phones with no problems:
     - Iphone 8
     - Iphone x
 
+## Deployment
+
+This project was develped intially using AWS cloud 9 IDE but after having some issues with the IDE I decided to go with VS Code. 
+
+To deply the project I used github pages in order to do so:
+
+Please [click here](https://ramifareed1989.github.io/Global_Warming) to get to the website. 
+
 ## Features
 
 I used the bootstrap grid feature to make the website responsive on all devices and also used a sticky `Navbar` to make it visible for the readers at all times to navigate smoothly through the page. 
