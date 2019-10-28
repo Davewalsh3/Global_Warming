@@ -76,6 +76,8 @@ For the testing i asked some of my family members and also colleagues at work, T
     - Safari
     - Mozzila Firefox
 
+The HTML and CSS code were validated by [W3C Validator](https://www.w3.org/). 
+
 I also tested myself to go with the left aligned text but figured out that the centered text will look a way better and also used `Class= "container"` just to make the graphs and the text of the graphs centered. 
 
 The code was tested with a html code tester to make sure that everything is ordinary.
